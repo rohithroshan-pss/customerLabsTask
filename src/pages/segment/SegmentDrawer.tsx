@@ -38,7 +38,7 @@ interface Schema {
 interface Props {
   open: boolean;
 }
-// List of schemas
+// Global Scope Variable and Constant Declarations
 const list: Schema[] = [
   { label: "First Name", value: "first_name" },
   { label: "Last Name", value: "last_name" },
